@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width: 100%;
+}
+
+.logo-pavia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 16px 24px;
+    border-bottom: solid rgb(178, 40, 75) 4px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: inset 0px -7px 20px -7px rgb(0 0 0 / 24%);
+}
+
+.logo-pavia img{
+    width: 300px;
+    margin: 1.5rem 0;
+    cursor:pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    gap: 25px;
+}
+
+.info h1{
+    margin:0;
+    color: rgb(178, 40, 75);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.info p{
+    margin:0;
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px rgb(222, 226, 230);
+    width: 80%;
+}
+
+.ateneo{
+    width: 120px;
+    height: 44px;
+    padding: 8px 16px;
+    border: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:rgb(178, 40, 75);
+    border-bottom: solid 4px rgb(178, 40, 75);
+    cursor: pointer;
+}
+
+.spid{
+    width: 120px;
+    height: 44px;
+    padding: 8px 16px;
+    border: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(178, 40, 75);
+    border-bottom: solid 4px white;
+    cursor: pointer;
+}
+
+.spid:hover{
+    border-bottom: solid 4px rgb(206, 202, 218);
+}
+
+.login-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-bottom: 200px;
+}
+
+form{
+    margin-top: 16px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 456px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 80%;
+    align-self: flex-start;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 700;
+}
+
+label input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: solid 1px rgb(206, 202, 218);
+}
+
+.submit-btn{
+    align-self: flex-start;
+    width:90%;
+    height: 48px;
+    border-radius: 4.8px;
+    background-color: rgb(178, 40, 75);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px rgb(178, 40, 75) solid;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+.submit-btn:hover{
+    background-color: rgb(34, 34, 34);
+    border:rgb(34, 34, 34);
+}
+
+.password-info{
+    padding-left: 0;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.password-info div p{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.password-info div a{
+    color: rgb(178, 40, 75);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.password-info div a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: rgb(178, 40, 75);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.footer p{
+    margin: 10px;
+    color: white;
+}
+
+.footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+}
